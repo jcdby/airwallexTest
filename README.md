@@ -7,3 +7,5 @@
 
 # Test instruction
   - npm test
+# Run App
+  - npm start

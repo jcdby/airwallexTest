@@ -4,13 +4,13 @@ var Calculator = require('./Calculator.js');
 
 var rl = readline.createInterface({
   input: process.stdin,
-  prompt: '' 
 });
 
 
 
 var calculator = new Calculator();
 
+output("Calculator has been initiated!")
 rl.on('line', (line) => {
   if(line === 'exit'){
     rl.close();
